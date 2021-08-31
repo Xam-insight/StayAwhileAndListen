@@ -1,0 +1,12 @@
+## Title: StayAwhileAndListen
+## Version: 0.1
+## Author: Xam
+## Interface: 60200
+## SavedVariables:
+## X-Curse-Packaged-Version: v0.3_beta
+## X-Curse-Project-Name: StayAwhileAndListen
+## X-Curse-Project-ID: stayawhileandlisten
+## X-Curse-Repository-ID: wow/stayawhileandlisten/mainline
+
+StayAwhileAndListen.lua
+StayAwhileAndListenFrames.xml

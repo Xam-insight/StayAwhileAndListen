@@ -1,0 +1,21 @@
+﻿<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="localization\localization.lua" />
+	<Script file="localization\localization_frFR.lua" />
+    <Button name="SAALButtonTemplate" virtual="true">
+        <Size x="16" y="16"/>
+        <Scripts>
+            <OnClick>
+                SAAL_Play(self);
+            </OnClick>
+            <OnEnter>
+                GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
+                GameTooltip:SetText(SAAL_StayAwhileAndListen);
+            </OnEnter>
+            <OnLeave>
+                GameTooltip:Hide();
+            </OnLeave>
+        </Scripts>
+        <NormalTexture file="Interface\Common\VoiceChat-Speaker"/>
+        <HighlightTexture file="Interface\Common\VoiceChat-On"/>
+    </Button>
+</Ui>
