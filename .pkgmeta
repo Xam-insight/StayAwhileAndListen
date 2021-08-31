@@ -1,0 +1,7 @@
+﻿package-as: StayAwhileAndListen
+
+externals:
+
+manual-changelog:
+	filename: CHANGELOG.txt
+	markup-type: markdown
